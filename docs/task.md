@@ -1,0 +1,21 @@
+# Service Billing & Renewal Management System - Task Checklist
+
+- [x] Initialize Laravel 12 project in `e:\PROG\BILLING`
+- [x] Install required Composer packages (`spatie/laravel-permission`, `barryvdh/laravel-dompdf`, `yajra/laravel-datatables-oracle`, `maatwebsite/excel`)
+- [x] Configure `.env` database details and create database `billing_management`
+- [x] Create database migrations
+- [x] Create models, attributes, and relationships
+- [x] Create repositories and services structure
+- [x] Create and seed Spatie roles & permissions, admin user, and service categories
+- [x] Implement Custom Authentication (Bootstrap 5 logic & views)
+- [x] Implement Customer Module (CRUD, Ledger, Excel Export)
+- [x] Implement Service Catalogue (Categories & Products CRUD)
+- [x] Implement Asset Inventories (Servers, Hostings, Domains CRUD)
+- [x] Implement Customer Services (CRUD, Renewals, Expiry Tracking)
+- [x] Implement Invoicing & Dynamic Item Rows (INV number system)
+- [x] Implement Payment Collection (Full/Partial payments, REC number system)
+- [x] Implement DomPDF Exporters (Invoice PDF & Receipt PDF templates)
+- [x] Implement Reports Module (Customer Ledger, Outstanding, Collections, Renewals, Services)
+- [x] Implement Automation & Console Scheduler (`services:check-expiry`)
+- [x] Polish UI (Bootstrap 5 theme, Sidebar navigation, widgets, Select2, DataTables, SweetAlert2)
+- [x] Write feature/unit tests and verify compliance
