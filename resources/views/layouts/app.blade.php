@@ -63,7 +63,7 @@
             align-items: center;
             padding: 0 1.5rem;
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             font-weight: 800;
             color: #f8fafc;
             letter-spacing: -0.5px;
