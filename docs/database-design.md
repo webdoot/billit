@@ -1,6 +1,6 @@
 # Database Design - Billit
 
-This document outlines the database schema, table structures, column definitions, and entity relationships for the Billit Service Billing & Renewal Management System.
+This document outlines the database schema, table structures, column definitions, and entity relationships for the Billit - Service Billing & Renewal Management system.
 
 ---
 

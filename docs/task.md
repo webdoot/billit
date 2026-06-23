@@ -1,4 +1,4 @@
-# Service Billing & Renewal Management System - Task Checklist
+# Billit - Service Billing & Renewal Management - Task Checklist
 
 - [x] Initialize Laravel 12 project in `e:\PROG\BILLING`
 - [x] Install required Composer packages (`spatie/laravel-permission`, `barryvdh/laravel-dompdf`, `yajra/laravel-datatables-oracle`, `maatwebsite/excel`)

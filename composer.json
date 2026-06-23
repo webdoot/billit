@@ -3,7 +3,7 @@
     "name": "webdoot/billit",
     "type": "project",
     "version": "1.0.0",
-    "description": "Billit - Service Billing & Renewal Management System",
+    "description": "Billit - Service Billing & Renewal Management",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {

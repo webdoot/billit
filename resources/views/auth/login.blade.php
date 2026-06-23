@@ -8,8 +8,11 @@
         <img src="{{ asset('images/logo.png') }}" alt="Billit Logo" style="height: 40px; width: auto; margin-right: 12px; border-radius: 8px;">
         <span>Billit</span>
     </div>
-    <div class="brand-subtitle">
-        Billit Billing & Renewal
+    <div class="brand-subtitle" style="margin-bottom: 0.25rem;">
+        Service Billing & Renewal Management
+    </div>
+    <div class="brand-tagline text-center" style="font-size: 0.75rem; color: #9ca3af; margin-bottom: 2rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 500;">
+        Track Services. Manage Renewals. Collect Payments.
     </div>
 
     @if (session('status'))

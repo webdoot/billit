@@ -1,6 +1,6 @@
-# Service Billing & Renewal Management System - Implementation Plan
+# Billit - Service Billing & Renewal Management - Implementation Plan
 
-We will build a professional Laravel 12 web application called **Service Billing & Renewal Management System** to manage customer details, recurring customer services, domain expiry, hostings, servers, renewals, invoicing, payments, receipts, and reporting.
+We will build a professional Laravel 12 web application called **Billit - Service Billing & Renewal Management** to manage customer details, recurring customer services, domain expiry, hostings, servers, renewals, invoicing, payments, receipts, and reporting.
 
 ## User Review Required
 

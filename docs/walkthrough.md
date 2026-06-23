@@ -1,4 +1,4 @@
-# Service Billing & Renewal Management System - Walkthrough
+# Billit - Service Billing & Renewal Management - Walkthrough
 
 This document outlines the final implementation steps and verification results for the IT company service billing web application.
 
