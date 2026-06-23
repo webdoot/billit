@@ -1,7 +1,7 @@
 # Billit - Service Billing & Renewal Management
 
 <p align="center">
-  <img src="public/images/logo.png" width="120" height="120" alt="Billit Logo" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+  <img src="public/images/complete-logo.png" width="200" height="200" alt="Billit Logo" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
 </p>
 
 <p align="center">
