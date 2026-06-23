@@ -54,4 +54,8 @@ Route::middleware(['auth'])->group(function () {
 
     // Help & Support Routes
     Route::get('/help', [\App\Http\Controllers\HelpController::class, 'index'])->name('help.index');
+
+    // User & Role Management Routes
+    Route::resource('users', \App\Http\Controllers\UserController::class);
+    Route::resource('roles', \App\Http\Controllers\RoleController::class)->except(['show']);
 });

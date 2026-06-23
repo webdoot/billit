@@ -273,6 +273,22 @@
             </a>
             @endcan
 
+            @if(auth()->user()->can('users.view') || auth()->user()->can('roles.view'))
+            <div class="menu-header">Access Control</div>
+            @can('users.view')
+            <a href="{{ route('users.index') }}" class="nav-link-custom {{ request()->routeIs('users.*') ? 'active' : '' }}">
+                <i class="fa-solid fa-user-gear"></i>
+                <span>User Directory</span>
+            </a>
+            @endcan
+            @can('roles.view')
+            <a href="{{ route('roles.index') }}" class="nav-link-custom {{ request()->routeIs('roles.*') ? 'active' : '' }}">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Roles & Permissions</span>
+            </a>
+            @endcan
+            @endif
+
             <div class="menu-header">Support</div>
             <a href="{{ route('help.index') }}" class="nav-link-custom {{ request()->routeIs('help.*') ? 'active' : '' }}">
                 <i class="fa-solid fa-circle-question"></i>

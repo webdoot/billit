@@ -39,11 +39,15 @@ It is engineered with a strict **Repository and Service Pattern** to decouple da
 - **Payment Collections**: Record UPI, Net Banking, Card, or Cash payments. Supports partial payment tracking (marking invoices as `Partial`) and full payment transitions (marking invoices as `Paid`).
 - **Official Receipts**: Auto-generate payment receipt PDFs with unique receipt reference numbers.
 
+### 🔐 Access Control & User Directory
+- **Employee Profiles**: Manage user profiles, passwords, and assigned roles via a server-side Yajra DataTable directory.
+- **Dynamic Roles & Permissions**: Create or edit custom roles, and easily toggle system permissions grouped dynamically by operational modules.
+
 ### 🔐 RBAC (Role-Based Access Control)
-- Secured via `spatie/laravel-permission` with three default roles:
-  - **Super Admin**: Bypasses all authority checks dynamically and has full system control.
-  - **Accounts**: Authorized for invoicing, payments, receipt generation, and financial reports, but blocked from editing infrastructure (servers).
-  - **Support Staff**: Authorized for managing servers, domains, and hosting details, but blocked from viewing invoices, payments, and financial reports.
+- Secured via `spatie/laravel-permission` with security guards and a full Access Control panel:
+  - **Super Admin**: Bypasses all authority checks dynamically and has full system control (including managing users, roles, and permissions).
+  - **Accounts**: Authorized for invoicing, payments, receipt generation, and financial reports, but blocked from infrastructure changes and access control panels.
+  - **Support Staff**: Authorized for managing servers, domains, and hosting details, but blocked from viewing invoices, payments, financial reports, or user listings.
 
 ### 📊 Analytics & Reporting
 - Real-time financial reports including:
