@@ -88,3 +88,16 @@ php artisan test
 ```
 
 All 11 tests pass successfully.
+
+---
+
+### 7. Branding Realignment & UI Spacing Adjustments
+We performed subsequent updates to match custom corporate requirements:
+* **Brand Name**: Configured the application as **Billit** and set the official descriptive title as **Billit - Service Billing & Renewal Management**.
+* **Visual Identity**:
+  - Dashboard Brand Logo: A cropped, centered version of the light blue "B" emblem at [logo.png](file:///e:/PROG/BILLING/public/images/logo.png).
+  - Browser Favicon: Dark blue "B" emblem with orange checkmarks at [favicon.png](file:///e:/PROG/BILLING/public/images/favicon.png) and root [favicon.ico](file:///e:/PROG/BILLING/public/favicon.ico).
+  - Documentation Logo: Corporate logo containing full brand text at [billit-logo.png](file:///e:/PROG/BILLING/public/images/billit-logo.png).
+* **Typography Refinement**: Reduced font-weights by 100 on layout text (sidebar branding, menu headers, links, badges) and by 200 on icons (to weight `700`) to improve legibility and visual weight.
+* **Tagline & Login Spacing**: Centered the brand logo on the login card, removed the redundant tagline block to clean up the design, and optimized vertical padding.
+* **Development workflow**: Set up a local development branch `ongo` for compiling and staging updates before merging to `main`.

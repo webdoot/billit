@@ -80,3 +80,14 @@ When a payment of amount $P$ is recorded against an invoice:
    - If $\text{New Balance} = 0$, the invoice status transitions to `Paid`.
    - If $\text{New Balance} > 0$, the invoice status transitions to `Partial`.
 3. **Receipt Trigger**: The system automatically generates a corresponding `receipt` with its own unique serial number matching the payment amount.
+
+---
+
+## 🎨 5. UI Typography & Icon Styling
+To ensure high readability and a clean dashboard design, we enforce strict styling rules:
+- **Font-Weight Reductions**: Standard Bootstrap 5 values are modified by custom CSS to reduce text thickness by 100 for premium typography:
+  - Sidebar Brand Title: `700` (instead of 800)
+  - Sidebar Menu Headers: `600` (instead of 700)
+  - Active Navigation Links & Knowledgebase Links: `400` (instead of 500)
+  - Badge Roles & Accordion Headers: `500` (instead of 600)
+- **Lighter Icon Rendering**: All FontAwesome icons in layout sections have their CSS weight set to `700 !important` (reduced by 200 from the default `900` solid weight) to make them thinner, sharper, and visually aligned with the Outfit font weights.

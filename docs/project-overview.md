@@ -11,11 +11,20 @@ In typical IT operations, managing varying renewal cycles for domains, cloud hos
 The application is engineered using modern, stable web technologies:
 
 - **Backend**: **Laravel 12 (PHP 8.2+)** utilizing Eloquent ORM, Service Providers, and Artisan Commands.
-- **Frontend**: Clean and modern dashboard built with **Bootstrap 5**, styled with custom **Vanilla CSS** tokens (Outfit typography, smooth card animations, and responsive sidebars), using **FontAwesome 6** for icons.
+- **Frontend**: Clean and modern dashboard built with **Bootstrap 5**, styled with custom **Vanilla CSS** tokens (Outfit typography, smooth card animations, and responsive sidebars) tuned to lighter font-weights (reduced by 100 on text and 200 on icons for improved readability), using **FontAwesome 6** for icons.
 - **Data Rendering**: **Yajra DataTables** for server-side rendering, search, pagination, and sorting of customer listings and logs.
 - **PDF Engine**: **Barryvdh Laravel DomPDF** for composing and exporting commercial-grade invoices and payment receipts.
 - **Form Controls & Alerts**: **Select2** for searchable select inputs and **SweetAlert2** for elegant user alerts and confirmations.
 - **Testing Suite**: **PHPUnit** with in-memory SQLite configurations for clean, decoupled feature testing.
+
+---
+
+## 🎨 Branding & Visual Assets
+Billit features a unified corporate identity across the application interface and repository assets:
+
+- **Dashboard Logo**: Located at [logo.png](file:///e:/PROG/BILLING/public/images/logo.png). A cropped, centered version of the light blue "B" emblem, designed for high visibility inside the dark-themed sidebar menu and login cards.
+- **Browser Favicon**: Mapped to [favicon.png](file:///e:/PROG/BILLING/public/images/favicon.png) and the root [favicon.ico](file:///e:/PROG/BILLING/public/favicon.ico). Uses the dark blue "B" emblem with orange ticks for browser tab identification.
+- **Corporate Banner Logo**: Located at [billit-logo.png](file:///e:/PROG/BILLING/public/images/billit-logo.png). The complete corporate brand logo containing the "Billit" text and tagline "Bill. Renew. Grow.", integrated into the repository documentation.
 
 ---
 
