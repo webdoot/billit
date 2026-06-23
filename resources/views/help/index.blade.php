@@ -55,7 +55,7 @@
         padding: 0.6rem 0.8rem;
         border-radius: 6px;
         transition: all 0.2s ease;
-        font-weight: 500;
+        font-weight: 400;
     }
     .kb-article-link:hover {
         background-color: rgba(99, 102, 241, 0.05);
@@ -72,7 +72,7 @@
         font-size: 0.75rem;
         padding: 0.25em 0.5em;
         border-radius: 4px;
-        font-weight: 600;
+        font-weight: 500;
     }
 </style>
 @endsection

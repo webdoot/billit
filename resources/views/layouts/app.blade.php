@@ -64,7 +64,7 @@
             padding: 0 1.5rem;
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             font-size: 1.5rem;
-            font-weight: 800;
+            font-weight: 700;
             color: #f8fafc;
             letter-spacing: -0.5px;
         }
@@ -75,7 +75,7 @@
 
         .menu-header {
             font-size: 0.75rem;
-            font-weight: 700;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
             color: #475569;
@@ -87,7 +87,7 @@
             align-items: center;
             padding: 0.75rem 1rem;
             color: #94a3b8;
-            font-weight: 500;
+            font-weight: 400;
             border-radius: 8px;
             transition: all 0.2s ease;
             text-decoration: none;
@@ -176,9 +176,14 @@
         /* Badges */
         .badge-role {
             font-size: 0.75rem;
-            font-weight: 600;
+            font-weight: 500;
             padding: 0.35em 0.65em;
             border-radius: 50rem;
+        }
+
+        /* Reduce icon font-weight by 200 (from solid 900 to 700) */
+        .sidebar i, .topbar i, .main-wrapper i {
+            font-weight: 700 !important;
         }
     </style>
     @yield('styles')

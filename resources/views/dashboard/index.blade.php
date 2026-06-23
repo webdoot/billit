@@ -45,7 +45,7 @@
     .bg-gradient-outstanding { background: linear-gradient(135deg, #ec4899 0%, #be185d 100%); }
 
     .renewal-tab-header {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 0.95rem;
     }
 </style>

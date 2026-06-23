@@ -76,7 +76,7 @@
 
         .form-label {
             font-size: 0.9rem;
-            font-weight: 500;
+            font-weight: 400;
             color: #9ca3af;
             margin-bottom: 0.5rem;
         }
@@ -87,7 +87,7 @@
             border: none;
             padding: 0.75rem 1.5rem;
             border-radius: 10px;
-            font-weight: 600;
+            font-weight: 500;
             transition: all 0.3s ease;
             width: 100%;
         }
@@ -100,7 +100,7 @@
 
         .brand-logo {
             font-size: 2.2rem;
-            font-weight: 800;
+            font-weight: 700;
             background: var(--accent-glow);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -116,6 +116,11 @@
             margin-bottom: 2rem;
             text-transform: uppercase;
             letter-spacing: 1.5px;
+        }
+
+        /* Reduce icon font-weight by 200 (from solid 900 to 700) */
+        .auth-card i {
+            font-weight: 700 !important;
         }
 
         .form-check-input {
